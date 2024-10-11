@@ -1,1 +1,0 @@
-# data-bestiary-yaml
