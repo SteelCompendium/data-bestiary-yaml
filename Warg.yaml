@@ -41,6 +41,7 @@ abilities:
   t3: '6 damage '
 - name: Sprint
   type: Maneuver
+  cost: 1 VP
   keywords:
   - —
   distance: Self

@@ -40,6 +40,7 @@ abilities:
       damage dealt. '
 - name: Vivace Vivace!
   type: Maneuver
+  cost: 3 VP
   keywords:
   - Area
   - Magic

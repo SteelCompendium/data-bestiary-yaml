@@ -44,6 +44,7 @@ abilities:
       gains an edge on attacks against the grabbed target. '
 - name: Throw
   type: Maneuver
+  cost: 1 VP
   keywords:
   - Melee
   distance: Reach 1

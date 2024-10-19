@@ -39,6 +39,7 @@ abilities:
   t3: 10 corruption damage; weakened (INU ends)
 - name: Rise, My Minions
   type: Maneuver
+  cost: 1 VP per minion
   keywords:
   - Area
   distance: 5 burst
