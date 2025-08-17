@@ -1,10 +1,22 @@
-might: 0
+name: Bredbeddle
+level: 3
+roles:
+  - Solo
+ancestry:
+  - Bredbeddle
+  - Giant
+ev: "60"
+stamina: "300"
+speed: 5
+size: "2"
+stability: 4
+free_strike: 6
+might: 3
 agility: 0
-reason: 0
-intuition: 0
-presence: 0
-traits: []
-abilities:
+reason: -3
+intuition: 2
+presence: 2
+traits:
   - name: Solo Monster
     effects:
       - effect: At the end of each of their turns, the bredbeddle can take 5 damage to
@@ -34,6 +46,7 @@ abilities:
     effects:
       - effect: The bredbeddle can't be physically transformed in any way except by
           their Heady or Not trait.
+abilities:
   - name: Executioner's Swing
     cost: Signature Ability
     keywords:

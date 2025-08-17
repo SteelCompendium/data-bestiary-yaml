@@ -1,10 +1,25 @@
-might: 0
+name: Soulraker Handmaiden
+level: 8
+roles:
+  - Horde Ambusher
+ancestry:
+  - Abyssal
+  - Demon
+  - Soulraker
+ev: "10"
+stamina: "50"
+weaknesses:
+  - Holy 5
+speed: 0
+size: 1M
+stability: 0
+free_strike: 4
+might: 3
 agility: 0
-reason: 0
-intuition: 0
-presence: 0
-traits: []
-abilities:
+reason: 2
+intuition: 2
+presence: 4
+traits:
   - name: Implanted Parasite
     effects:
       - effect: >-
@@ -31,6 +46,11 @@ abilities:
           The Find a Cure downtime project in Draw Steel: Heroes can be used to
           find a cure that removes a handmaiden from a host. The cure kills the
           handmaiden when consumed.
+  - name: Lethe
+    effects:
+      - effect: While the handmaiden is winded, they gain an edge on strikes, and any
+          strike made against them gains an edge.
+abilities:
   - name: Emergent Horrors
     cost: Signature Ability
     keywords:
@@ -47,7 +67,3 @@ abilities:
         t3: 13 corruption damage; M < 4 frightened (save ends)
       - effect: If the handmaiden was totally within their host's body at the start of
           this turn, the ability deals an extra 8 damage.
-  - name: Lethe
-    effects:
-      - effect: While the handmaiden is winded, they gain an edge on strikes, and any
-          strike made against them gains an edge.

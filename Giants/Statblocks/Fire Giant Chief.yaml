@@ -1,9 +1,29 @@
-might: 0
-agility: 0
+name: Fire Giant Chief
+level: 9
+roles:
+  - Leader
+ancestry:
+  - Fire Giant
+  - Giant
+ev: "44"
+stamina: "240"
+immunities:
+  - Fire 10
+speed: 10
+size: "5"
+stability: 10
+free_strike: 9
+might: 5
+agility: 3
 reason: 0
-intuition: 0
-presence: 0
-traits: []
+intuition: 2
+presence: 3
+traits:
+  - name: Scorching Skin
+    effects:
+      - effect: Whenever an adjacent enemy grabs the chief or uses a melee ability
+          against them, that enemy takes 9 fire damage, and if they have M < 4
+          they are weakened (save ends)
 abilities:
   - name: Roiling Fist
     cost: Signature Ability
@@ -98,8 +118,3 @@ abilities:
           - **12-16:** 14 fire damage
 
           - **17+:** 9 fire damage
-  - name: Scorching Skin
-    effects:
-      - effect: Whenever an adjacent enemy grabs the chief or uses a melee ability
-          against them, that enemy takes 9 fire damage, and if they have M < 4
-          they are weakened (save ends)

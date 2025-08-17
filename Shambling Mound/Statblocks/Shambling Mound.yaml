@@ -1,10 +1,22 @@
-might: 0
-agility: 0
+name: Shambling Mound
+level: 5
+roles:
+  - Solo
+ancestry:
+  - Plant
+  - Shambling Mound
+ev: "84"
+stamina: "400"
+speed: 3
+size: "3"
+stability: 5
+free_strike: 7
+might: 4
+agility: -1
 reason: 0
-intuition: 0
+intuition: 1
 presence: 0
-traits: []
-abilities:
+traits:
   - name: Solo Monster
     effects:
       - effect: At the end of each of their turns, the shambling mound can take 10
@@ -21,6 +33,14 @@ abilities:
           fire weakness 10. Destroying the sack frees creatures trapped by the
           shambling mound's Engulf ability. The shambling mound regrows a
           destroyed sack at the start of their next turn.
+  - name: False Appearance
+    effects:
+      - effect: While the shambling mound remains motionless, they are indistinguishable
+          from ordinary vegetation.
+  - name: Frothing Flora
+    effects:
+      - effect: The area within 6 squares of the shambling mound is difficult terrain.
+abilities:
   - name: Vine Lash
     cost: Signature Ability
     keywords:
@@ -94,13 +114,6 @@ abilities:
       - **12-16:** 12 damage; M < 3 restrained (EoT)
       - **17+:** 15 damage; M < 4 restrained (EoT)
     effects: []
-  - name: False Appearance
-    effects:
-      - effect: While the shambling mound remains motionless, they are indistinguishable
-          from ordinary vegetation.
-  - name: Frothing Flora
-    effects:
-      - effect: The area within 6 squares of the shambling mound is difficult terrain.
   - name: Ravenous Overgrowth
     cost: Villain Action 1
     keywords:

@@ -1,10 +1,27 @@
-might: 0
-agility: 0
-reason: 0
-intuition: 0
-presence: 0
-traits: []
-abilities:
+name: Lich
+level: 10
+roles:
+  - Solo
+ancestry:
+  - Undead
+ev: "144"
+stamina: "650"
+immunities:
+  - Corruption 10
+  - poison 10
+weaknesses:
+  - Holy 5
+speed: 10
+movement: Fly, hover
+size: 1M
+stability: 1
+free_strike: 10
+might: 2
+agility: 3
+reason: 5
+intuition: 5
+presence: 5
+traits:
   - name: Solo Monster
     effects:
       - effect: At the end of each of their turns, the lich can take 20 damage to end
@@ -14,6 +31,41 @@ abilities:
       - effect: The lich can take two turns each round. They can't take turns
           consecutively.
         name: Solo Turns
+  - name: Herald of Oblivion
+    effects:
+      - effect: In the lich's presence, death's call is stronger. Any winded creature
+          within 5 squares of the lich is bleeding and can't use the Catch
+          Breath maneuver.
+  - name: Glare of Undeath
+    effects:
+      - effect: At the start of each round, the lich chooses a creature within 10
+          squares. If that creature has R < 4, they are restrained until the end
+          of the lich's next turn. The lich can't choose the same creature two
+          rounds in a row.
+  - name: Rejuvenation
+    effects:
+      - effect: >-
+          The lich has a soulstone, which has 50 Stamina and damage immunity all
+          except to sonic damage and holy damage. If the lich is destroyed while
+          their soulstone is intact, their soul retreats into the soulstone. Any
+          creature who has P < 5 and who moves within 5 squares of an inhabited
+          soulstone for the first time in a round or starts their turn there is
+          compelled (save ends). A compelled creature must do everything in
+          their power to move toward and touch the soulstone.
+
+          A creature who touches an inhabited soulstone makes a **Might test**
+          that takes a bane.
+
+          - **≤11:** The creature is reduced to 0 Stamina and the lich manifests
+          adjacent to the soulstone with full Stamina.
+
+          - **12-16:** The creature is reduced to 0 Stamina and the lich
+          manifests adjacent to the soulstone with 300 Stamina.
+
+          - **17+:** The creature has their Stamina reduced to their winded
+          value unless it is already lower, and the lich manifests adjacent to
+          the soulstone with 100 Stamina.
+abilities:
   - name: Conflagration
     cost: Signature Ability
     keywords:
@@ -82,40 +134,6 @@ abilities:
     effects:
       - effect: If the target has P < 4, they swap places with the lich to become the
           new target of the triggering ability.
-  - name: Herald of Oblivion
-    effects:
-      - effect: In the lich's presence, death's call is stronger. Any winded creature
-          within 5 squares of the lich is bleeding and can't use the Catch
-          Breath maneuver.
-  - name: Glare of Undeath
-    effects:
-      - effect: At the start of each round, the lich chooses a creature within 10
-          squares. If that creature has R < 4, they are restrained until the end
-          of the lich's next turn. The lich can't choose the same creature two
-          rounds in a row.
-  - name: Rejuvenation
-    effects:
-      - effect: >-
-          The lich has a soulstone, which has 50 Stamina and damage immunity all
-          except to sonic damage and holy damage. If the lich is destroyed while
-          their soulstone is intact, their soul retreats into the soulstone. Any
-          creature who has P < 5 and who moves within 5 squares of an inhabited
-          soulstone for the first time in a round or starts their turn there is
-          compelled (save ends). A compelled creature must do everything in
-          their power to move toward and touch the soulstone.
-
-          A creature who touches an inhabited soulstone makes a **Might test**
-          that takes a bane.
-
-          - **≤11:** The creature is reduced to 0 Stamina and the lich manifests
-          adjacent to the soulstone with full Stamina.
-
-          - **12-16:** The creature is reduced to 0 Stamina and the lich
-          manifests adjacent to the soulstone with 300 Stamina.
-
-          - **17+:** The creature has their Stamina reduced to their winded
-          value unless it is already lower, and the lich manifests adjacent to
-          the soulstone with 100 Stamina.
   - name: Cages of Wasting
     cost: Villain Action 1
     keywords:

@@ -1,10 +1,23 @@
-might: 0
-agility: 0
-reason: 0
-intuition: 0
-presence: 0
-traits: []
-abilities:
+name: Xorannox the Tyract
+level: 6
+roles:
+  - Solo
+ancestry:
+  - Horror
+  - Overmind
+ev: "96"
+stamina: "450"
+speed: 5
+movement: Fly, hover
+size: "3"
+stability: 2
+free_strike: 7
+might: 4
+agility: 2
+reason: 4
+intuition: 3
+presence: 3
+traits:
   - name: Solo Monster
     effects:
       - effect: At the end of each of his turns, Xorannox can take 10 damage to end one
@@ -19,6 +32,16 @@ abilities:
       - effect: Six unique eyestalks float around Xorannox, acting on his turn at his
           command until they are reduced to 0 Stamina. On each of Xorannox's
           turns, he directs one eyestalk to move and use a signature ability.
+  - name: Above It All
+    effects:
+      - effect: Xorannox can't be made frightened or knocked prone, and he can't be
+          flanked
+  - name: Natural Enemies
+    effects:
+      - effect: If Xorannox perceives another overmind or a voiceless talker on the
+          encounter map, he targets that threat one or more times on each of his
+          turns.
+abilities:
   - name: Toothful Thrashing
     cost: Signature Ability
     keywords:
@@ -76,15 +99,6 @@ abilities:
     trigger: A creature within distance deals damage to Xorannox.
     effects:
       - effect: If the target has I < 3 they are frightened (save ends)
-  - name: Above It All
-    effects:
-      - effect: Xorannox can't be made frightened or knocked prone, and he can't be
-          flanked
-  - name: Natural Enemies
-    effects:
-      - effect: If Xorannox perceives another overmind or a voiceless talker on the
-          encounter map, he targets that threat one or more times on each of his
-          turns.
   - name: Disruption Beam
     cost: Villain Action 1
     keywords:

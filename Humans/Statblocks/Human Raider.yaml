@@ -1,9 +1,29 @@
+name: Human Raider
+level: 1
+roles:
+  - Minion Harrier
+ancestry:
+  - Human
+  - Humanoid
+ev: 3 for four minions
+stamina: "4"
+immunities:
+  - Corruption 1
+  - psychic 1
+speed: 7
+size: 1M
+stability: 0
+free_strike: 1
+with_captain: Gain an edge on strikes
 might: 0
-agility: 0
+agility: 2
 reason: 0
 intuition: 0
 presence: 0
-traits: []
+traits:
+  - name: Supernatural Insight
+    effects:
+      - effect: The raider ignores concealment if it's granted by a supernatural effect.
 abilities:
   - name: Handaxes
     cost: Signature Ability
@@ -22,6 +42,3 @@ abilities:
         t3: 3 damage
       - effect: If this ability is used as part of a charge, the raider can make a
           ranged free strike before using the ability.
-  - name: Supernatural Insight
-    effects:
-      - effect: The raider ignores concealment if it's granted by a supernatural effect.

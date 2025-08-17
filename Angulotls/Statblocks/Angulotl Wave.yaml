@@ -1,9 +1,29 @@
+name: Angulotl Wave
+level: 1
+roles:
+  - Horde Controller
+ancestry:
+  - Angulotl
+  - Humanoid
+ev: "3"
+stamina: "10"
+immunities:
+  - Poison 2
+speed: 5
+movement: Climb, swim
+size: 1S
+stability: 0
+free_strike: 1
 might: 0
 agility: 0
 reason: 0
-intuition: 0
-presence: 0
-traits: []
+intuition: 2
+presence: 2
+traits:
+  - name: Toxiferous
+    effects:
+      - effect: Whenever an adjacent enemy grabs the wave or uses a melee ability
+          against them, that enemy takes 2 poison damage.
 abilities:
   - name: Refulgent Beams
     cost: Signature Ability
@@ -43,7 +63,3 @@ abilities:
           - **12-16:** 2 poison damage; the target is wet (save ends)
 
           - **17+:** 1 poison damage; the target is wet (EoT)
-  - name: Toxiferous
-    effects:
-      - effect: Whenever an adjacent enemy grabs the wave or uses a melee ability
-          against them, that enemy takes 2 poison damage.

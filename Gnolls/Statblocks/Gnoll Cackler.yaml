@@ -1,9 +1,27 @@
+name: Gnoll Cackler
+level: 2
+roles:
+  - Horde Hexer
+ancestry:
+  - Abyssal
+  - Gnoll
+ev: "4"
+stamina: "15"
+speed: 5
+size: 1S
+stability: 1
+free_strike: 2
 might: 0
 agility: 0
-reason: 0
-intuition: 0
-presence: 0
-traits: []
+reason: 2
+intuition: 2
+presence: 2
+traits:
+  - name: Death Frenzy
+    effects:
+      - effect: Whenever a non-minion ally within 5 squares of the cackler is reduced to
+          0 Stamina, the cackler moves up to their speed and can make a melee
+          free strike.
 abilities:
   - name: Moment of Brutality
     cost: Signature Ability
@@ -43,8 +61,3 @@ abilities:
           - **12-16:** Frightened (EoT)
 
           - **17+:** No effect
-  - name: Death Frenzy
-    effects:
-      - effect: Whenever a non-minion ally within 5 squares of the cackler is reduced to
-          0 Stamina, the cackler moves up to their speed and can make a melee
-          free strike.

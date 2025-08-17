@@ -1,9 +1,31 @@
-might: 0
-agility: 0
-reason: 0
-intuition: 0
-presence: 0
-traits: []
+name: Gunge
+level: 4
+roles:
+  - Horde Controller
+ancestry:
+  - Abyssal
+  - Demon
+ev: "6"
+stamina: "25"
+weaknesses:
+  - Holy 5
+speed: 6
+size: "3"
+stability: 0
+free_strike: 2
+might: 3
+agility: 2
+reason: 1
+intuition: 2
+presence: -1
+traits:
+  - name: Lethe
+    effects:
+      - effect: While the gunge is winded, they gain an edge on strikes, and any strike
+          made against them gains an edge.
+  - name: Soulsight
+    effects:
+      - effect: Any creature within 2 squares of the gunge can't be hidden from them.
 abilities:
   - name: Bilious Expulsion
     cost: Signature Ability
@@ -36,10 +58,3 @@ abilities:
           occupied before the shift is covered in slime that is difficult
           terrain for enemies. Additionally, any enemy is bleeding while in the
           slime.
-  - name: Lethe
-    effects:
-      - effect: While the gunge is winded, they gain an edge on strikes, and any strike
-          made against them gains an edge.
-  - name: Soulsight
-    effects:
-      - effect: Any creature within 2 squares of the gunge can't be hidden from them.

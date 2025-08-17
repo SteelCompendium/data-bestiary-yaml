@@ -1,9 +1,25 @@
-might: 0
+name: Ogre Goon
+level: 2
+roles:
+  - Elite Brute
+ancestry:
+  - Giant
+  - Ogre
+ev: "16"
+stamina: "100"
+speed: 5
+size: "2"
+stability: 4
+free_strike: 5
+might: 2
 agility: 0
-reason: 0
+reason: -1
 intuition: 0
-presence: 0
-traits: []
+presence: -1
+traits:
+  - name: Defiant Anger
+    effects:
+      - effect: While winded, the goon has damage immunity 2.
 abilities:
   - name: Club Swing
     cost: Signature Ability
@@ -62,6 +78,3 @@ abilities:
     trigger: A creature or object within distance moves or shifts away from the goon.
     effects:
       - effect: The goon slides the target up to 5 squares
-  - name: Defiant Anger
-    effects:
-      - effect: While winded, the goon has damage immunity 2.

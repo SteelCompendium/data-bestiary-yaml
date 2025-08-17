@@ -1,10 +1,23 @@
-might: 0
-agility: 0
+name: Manticore
+level: 4
+roles:
+  - Solo
+ancestry:
+  - Beast
+  - Manticore
+ev: "72"
+stamina: "0350"
+speed: 1
+movement: Fly
+size: "2"
+stability: 2
+free_strike: 6
+might: 4
+agility: 3
 reason: 0
 intuition: 0
-presence: 0
-traits: []
-abilities:
+presence: -1
+traits:
   - name: Solo Monster
     effects:
       - effect: At the end of each of their turns, the manticore can take 10 damage to
@@ -18,6 +31,7 @@ abilities:
     effects:
       - effect: Whenever the manticore deals damage to a creature, they don't provoke
           opportunity attacks from that creature during that turn.
+abilities:
   - name: Carnivorous Bite
     cost: Signature Ability
     keywords:

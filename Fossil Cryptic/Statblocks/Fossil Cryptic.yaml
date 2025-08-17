@@ -1,10 +1,22 @@
-might: 0
-agility: 0
-reason: 0
-intuition: 0
+name: Fossil Cryptic
+level: 2
+roles:
+  - Solo
+ancestry:
+  - Elemental
+ev: "48"
+stamina: "250"
+speed: 8
+movement: Burrow
+size: 1L
+stability: 3
+free_strike: 5
+might: 3
+agility: 2
+reason: 1
+intuition: 1
 presence: 0
-traits: []
-abilities:
+traits:
   - name: Solo Monster
     effects:
       - effect: At the end of each of their turns, the cryptic can take 5 damage to end
@@ -25,6 +37,7 @@ abilities:
       - effect: The cryptic ignores difficult terrain. Additionally, they have line of
           effect to any creature with concealment if that creature is touching
           the ground.
+abilities:
   - name: Sand Slam
     cost: Signature Ability
     keywords:

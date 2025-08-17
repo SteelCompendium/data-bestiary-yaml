@@ -1,9 +1,29 @@
+name: War Dog Firestarter
+level: 8
+roles:
+  - Horde Hexer
+ancestry:
+  - Humanoid
+  - Soulless
+  - War Dog
+ev: "10"
+stamina: "45"
+immunities:
+  - Fire 8
+speed: 5
+size: 1M
+stability: 0
+free_strike: 3
 might: 0
-agility: 0
-reason: 0
-intuition: 0
-presence: 0
-traits: []
+agility: 2
+reason: 3
+intuition: 4
+presence: 1
+traits:
+  - name: Loyalty Collar
+    effects:
+      - effect: When the firestarter is reduced to 0 Stamina, their loyalty collar
+          explodes, dealing 3d6 damage to each adjacent enemy and object.
 abilities:
   - name: Twin Flamebelchers
     cost: Signature Ability
@@ -39,7 +59,3 @@ abilities:
           - **12-16:** 4 fire damage; A < 3 the target is seared (save ends)
 
           - **17+:** 6 fire damage; A < 4 the target is seared (save ends)
-  - name: Loyalty Collar
-    effects:
-      - effect: When the firestarter is reduced to 0 Stamina, their loyalty collar
-          explodes, dealing 3d6 damage to each adjacent enemy and object.

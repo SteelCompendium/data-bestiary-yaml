@@ -1,9 +1,28 @@
-might: 0
-agility: 0
+name: Radenwight Maestro
+level: 1
+roles:
+  - Leader
+ancestry:
+  - Humanoid
+  - Radenwight
+ev: "12"
+stamina: "80"
+speed: 5
+movement: Climb
+size: 1S
+stability: 1
+free_strike: 4
+might: -2
+agility: 2
 reason: 0
 intuition: 0
-presence: 0
-traits: []
+presence: 3
+traits:
+  - name: End Effect
+    effects:
+      - effect: At the end of each of their turns, the maestro can take 5 damage to end
+          one effect on them that can be ended by a saving throw. This damage
+          can't be reduced in any way.
 abilities:
   - name: Cacophony
     cost: Signature Ability
@@ -48,11 +67,6 @@ abilities:
       an ally.
     effects:
       - effect: The maestro makes a free strike against the target.
-  - name: End Effect
-    effects:
-      - effect: At the end of each of their turns, the maestro can take 5 damage to end
-          one effect on them that can be ended by a saving throw. This damage
-          can't be reduced in any way.
   - name: Overture
     cost: Villain Action 1
     keywords:
