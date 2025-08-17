@@ -82,7 +82,7 @@ abilities:
     keywords:
       - Area
     type: "-"
-    distance: 10 Burst
+    distance: 10 burst
     target: Self and each ally in the area
     effects:
       - effect: Each target moves up to their speed and can make a free strike. Each

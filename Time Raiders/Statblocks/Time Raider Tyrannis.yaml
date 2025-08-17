@@ -88,7 +88,7 @@ abilities:
     keywords:
       - Area
     type: "-"
-    distance: 10 Burst
+    distance: 10 burst
     target: Self and each ally in the area
     effects:
       - effect: Each target can end one effect on them or can move up to their speed.

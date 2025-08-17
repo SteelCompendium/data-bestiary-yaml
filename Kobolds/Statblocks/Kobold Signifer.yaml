@@ -53,7 +53,7 @@ abilities:
     keywords:
       - Area
     type: Maneuver
-    distance: 5 Burst
+    distance: 5 burst
     target: Each ally in the area
     effects:
       - effect: Each target regains 5 Stamina.
