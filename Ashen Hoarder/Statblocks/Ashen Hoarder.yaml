@@ -6,6 +6,7 @@ ancestry:
   - Construct
   - Undead
 ev: "72"
+stamina: "350"
 weaknesses:
   - Holy 5
 speed: 8

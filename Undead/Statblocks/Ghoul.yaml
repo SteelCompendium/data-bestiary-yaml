@@ -4,7 +4,7 @@ roles:
   - Horde Harrier
 ancestry:
   - Undead
-ev: 3\\
+ev: "3"
 stamina: "15"
 immunities:
   - Corruption 1
