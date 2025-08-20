@@ -175,11 +175,10 @@ abilities:
     distance: 5 burst
     target: Each enemy in the area
     effects:
-      - effect: |-
-          11 fire damage; A < 4 weakened (save ends)
-          - **12-16:** 17 fire damage; A < 5 weakened (save ends)
-          - **17+:** 21 fire damage; A < 6 weakened (save ends)
-        cost: ≤11
+      - roll: Power Roll + 5
+        t1: 11 fire damage; A < 4 weakened (save ends)
+        t2: 17 fire damage; A < 5 weakened (save ends)
+        t3: 21 fire damage; A < 6 weakened (save ends)
       - effect: Ajax flies at high speed to cut through each target, then appears in an
           unoccupied space within distance.
   - name: I've Learned Their Tricks
