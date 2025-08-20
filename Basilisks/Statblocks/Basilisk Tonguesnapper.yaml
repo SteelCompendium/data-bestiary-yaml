@@ -20,7 +20,8 @@ reason: -3
 intuition: -1
 presence: -1
 traits:
-  - effects:
+  - name: Petrifying Fumes
+    effects:
       - effect: Any creature who starts their turn adjacent to the tonguesnapper and has
           M < 1 is slowed (save ends).
 abilities:

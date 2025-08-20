@@ -93,7 +93,9 @@ abilities:
       - effect: This ability can be replaced with the features of a different treasure
           Ajax has acquired.
         name: Special
-  - keywords:
+  - name: Bead of Hell
+    cost: 2 Malice
+    keywords:
       - Area
       - Magic
       - Ranged

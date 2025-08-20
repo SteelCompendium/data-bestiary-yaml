@@ -35,7 +35,8 @@ abilities:
         t3: 13 damage; pull 4
       - effect: Each target must be on the ground, and each square a target is pulled
           through is difficult terrain for enemies.
-  - keywords:
+  - name: Blistering Element
+    keywords:
       - Area
       - Magic
     type: Main Action
@@ -64,7 +65,8 @@ abilities:
         t3: 11 corruption damage; P < 2 the target is shapechanged (save ends)
       - effect: A shapechanged creature is slowed and has fire weakness 10 as their
           limbs stretch and their skin becomes paper thin.
-  - keywords:
+  - name: Throw
+    keywords:
       - Melee
       - Strike
     type: Maneuver

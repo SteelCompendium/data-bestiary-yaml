@@ -65,7 +65,8 @@ abilities:
         t2: 11 damage; A < 4 bleeding (save ends)
         t3: 15 damage; A < 5 bleeding (save ends)
       - effect: This ability deals an extra 5 damage for each winded target in the area.
-  - keywords:
+  - name: Hunting Leap
+    keywords:
       - Ranged
     type: Maneuver
     distance: Ranged 5

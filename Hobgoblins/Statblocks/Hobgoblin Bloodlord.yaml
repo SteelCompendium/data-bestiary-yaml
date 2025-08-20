@@ -72,7 +72,9 @@ abilities:
     effects:
       - effect: Three hobgoblin recruits manifest from the target's blood into
           unoccupied spaces adjacent to the target.
-  - keywords:
+  - name: Advance!
+    cost: Villain Action 1
+    keywords:
       - Area
     type: "-"
     distance: 10 burst
