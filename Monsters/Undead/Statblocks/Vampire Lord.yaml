@@ -5,6 +5,7 @@ roles:
   - Leader
 ancestry:
   - Undead
+  - Vampire
 ev: "36"
 stamina: "200"
 immunities:
