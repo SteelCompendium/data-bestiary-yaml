@@ -26082,6 +26082,29 @@ monsters:
               revive one adjacent dead soot crow, brambleguard, or ceramic horse.
               The revived creature returns with 3 Stamina.
   - type: statblock
+    name: Noncombatant
+    level: 0
+    roles: []
+    ancestry:
+      - Human or Animal
+    ev: "-"
+    stamina: "8"
+    speed: 5
+    size: 1S-2
+    stability: 0
+    free_strike: 1
+    might: 0
+    agility: 0
+    reason: 0
+    intuition: 0
+    presence: 0
+    features:
+      - type: feature
+        feature_type: trait
+        name: Size
+        effects:
+          - effect: The noncombatant can be size 1S, 1M, 1L, or 2.
+  - type: statblock
     name: Olothec
     level: 6
     roles:
@@ -33823,6 +33846,7 @@ monsters:
         feature_type: ability
         name: Hrraaaaaagh!
         icon: ❗️
+        cost: 1 Malice
         keywords:
           - "-"
         usage: Free triggered action
